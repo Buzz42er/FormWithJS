@@ -1,90 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color:white;
-    font-family: 'Comfortaa', cursive;
-    line-height: 1.6;
-    background-color: rgb(41, 41, 41);
+  color: white;
+  font-family: "Comfortaa", cursive;
+  line-height: 1.6;
+  background-color: rgb(41, 41, 41);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 ul li {
-    padding: 5px;
-    background: #141414;
-    border-radius: 10px;
-    color:rgb(187, 187, 18);
-    margin: 5px 0;
+  padding: 5px;
+  background: #141414;
+  border-radius: 10px;
+  color: rgb(187, 187, 18);
+  margin: 5px 0;
 }
 
 header {
-    background: #141414;
-    
-    padding: 1rem;
-    text-align: center;
+  background: #141414;
+
+  padding: 1rem;
+  text-align: center;
 }
 
 .container {
-    margin: auto;
-    width: 500px;
-    overflow: auto;
-    padding: 3rem 2rem;
-    border-radius: 10px;
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+  border-radius: 10px;
 }
 
 #my-form {
-    padding: 2rem;
-    background: #141414;
-    border-radius: 10px;
+  padding: 2rem;
+  background: #141414;
+  border-radius: 10px;
 }
 
 #my-form label {
-    display: block;
+  display: block;
 }
 
-#my-form input[type='text'] {
-    color: white;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: black;
-    border: 1px solid black;
+#my-form input[type="text"],
+#my-form input[type="email"] {
+  color: white;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid black;
 }
 
 .btn {
-    display: block;
-    width: 100%;
-    padding: 10px 15px;
-    border: 0;
-    font-family: 'Comfortaa';
-    background: rgb(187, 187, 18);
-    color: black;
-    border-radius: 10px;
-    margin: 5px 0;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  font-family: "Comfortaa";
+  background: rgb(187, 187, 18);
+  color: black;
+  border-radius: 10px;
+  margin: 5px 0;
 }
 
 .btn:hover {
-    background: #444;
-    color: white;
+  background: #444;
+  color: white;
+}
+
+.btn:active {
+  background: rgb(112, 112, 25);
+  color: white;
 }
 
 .bg-dark {
-    background: gray;
-    color: gray;
+  background: gray;
+  color: gray;
 }
 
 .error {
-    background: orangered;
-    color: gray;
-    padding: 5px;
-    margin: 5px;
+  background: orangered;
+  color: gray;
+  padding: 5px;
+  margin: 5px;
 }
